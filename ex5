@@ -1,0 +1,4 @@
+nm = int(input('Digite um número negativo: '))
+
+print(abs(nm))
+
