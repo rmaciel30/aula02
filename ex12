@@ -1,0 +1,10 @@
+km = int(input('Qual a velocidade atingida pelo carro (km/h)? '))
+
+if km < 60:
+    print('Velocidade permitida!')
+elif km > 60 and km < 80:
+    print('Alta velocidade!')
+elif km > 80 and km < 120:
+    print('Muito rápido!')
+else:
+    print('VUADO!')
