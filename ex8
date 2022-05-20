@@ -1,0 +1,9 @@
+fals = 7 < 5
+verd = 7 > 5
+faland = 1 > 2 and 3
+truor = 10 > 5 or 9
+
+print(fals)
+print(verd)
+print(faland)
+print(truor)
