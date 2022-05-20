@@ -1,0 +1,6 @@
+n = int(input('Digite um número: '))
+
+if n > 3:
+    print('Este número é maior do que 3!')
+else:
+    print('Este número não é maior que 3!')
