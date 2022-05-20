@@ -1,0 +1,6 @@
+from math import floor,ceil
+
+n = float(input('Digite um número quebrado: '))
+
+print(floor(n))
+print(ceil(n))
