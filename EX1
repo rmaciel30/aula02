@@ -1,0 +1,4 @@
+base = int(input('Digite um número inteiro: '))
+expo = 3
+
+print('O resultado da operação é:',pow(base,expo))
