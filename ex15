@@ -1,0 +1,10 @@
+temperatura = float(input('Qual a temperatura auferida? '))
+
+if temperatura <= 37:
+    print('Temperatura Normal!')
+elif temperatura <= 37.8:
+    print('Febril!')
+elif temperatura <= 39.4:
+    print('Febre moderada!')
+else:
+    print('Febre Grave!')
