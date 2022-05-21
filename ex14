@@ -1,0 +1,9 @@
+nscret = 30
+palpite = int(input('Adivinhe o número inteiro secreto: '))
+
+if palpite > nscret:
+    print('Você errou para mais!')
+elif palpite < nscret:
+    print('Você errou para menor!')
+else:
+    print('Você acertou!')
