@@ -1,0 +1,7 @@
+login = input('Usuário: ')
+senha = input('Senha: ').lower()
+
+if login == 'INFINITY' and senha == 'school':
+    print('ACESSO PERMITIDO!')
+else:
+    print('ACESSO NEGADO!')
