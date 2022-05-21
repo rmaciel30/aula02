@@ -1,0 +1,13 @@
+nome = input('Qual o nome do aluno? ').strip().title()
+nota1 = float(input('Qual a primeira nota obtida? '))
+nota2 = float(input('Qual a segunda nota obtida? '))
+media = (nota1 + nota2) / 2
+
+if media > 7:
+    print('O Aluno {}, obteve a média {:.2f} e foi aprovado com conceito A!'.format(nome,media))
+elif media > 5 and media <= 7:
+    print('O Aluno {}, obteve a média {:.2f} e foi aprovado com conceito B!'.format(nome, media))
+elif media >= 4 and media <= 5:
+    print('O Aluno {}, obteve a média {:.2f} e fará a avaliação final!'.format(nome, media))
+else:
+    print('O Aluno {}, obteve a média {:.2f} e foi reprovado!'.format(nome, media))
